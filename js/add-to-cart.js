@@ -120,7 +120,7 @@ function applyCoupon(){
     const couponCode = document.getElementById('coupon-field');
     const coupon = couponCode.value;
 
-    if(coupon=='asdf'){
+    if(coupon=='SELL20'){
         const discount = calculateDiscount(totalPrice);
         finalTotal(totalPrice,discount);
     }
@@ -148,7 +148,7 @@ function sellTwenty(){
     // const totalprice = parseFloat(totalpricetext);
     // if (totalprice>200){
         const coupon = document.getElementById('coupon-field');
-        coupon.value = 'asdf';
+        coupon.value = 'SELL20';
     // }
 }
 
