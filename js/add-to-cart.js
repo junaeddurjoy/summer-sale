@@ -124,6 +124,9 @@ function applyCoupon(){
         const discount = calculateDiscount(totalPrice);
         finalTotal(totalPrice,discount);
     }
+    else{
+        alert("Please Enter A Valid Coupon!")
+    }
 }
 
 function goHome(){
